@@ -14,14 +14,14 @@ int main() {
             cin >> A[i][j];
         }
     }
-    
+
     for(int i = 0; i < r2; i++) {
         for(int j = 0; j <= c2; j++) {           
             cin >> B[i][j];
         }
     }
 
-    for(int i = 0; i < r1; i++) {
+    for(int i = 0; i < r1; i++) { 
         for(int j = 0; j < c2; j++) {
 
             for(int k = 0; k <= c1; k++) {         

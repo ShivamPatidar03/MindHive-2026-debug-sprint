@@ -13,7 +13,7 @@ int main() {
         for(int j = 0; j < c1; j++) {
             cin >> A[i][j];
         }
-    }
+    }      
 
     for(int i = 0; i < r2; i++) {
         for(int j = 0; j <= c2; j++) {            
@@ -35,7 +35,7 @@ int main() {
         for(int j = 0; j < c2; j++) {
             cout << C[j][i] << " ";               
         }
-        cout << endl;
+        cout << endl; 
     }
 
     return 0;

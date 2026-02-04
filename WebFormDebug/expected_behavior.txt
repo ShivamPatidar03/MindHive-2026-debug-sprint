@@ -6,4 +6,4 @@ After fixing all bugs:
 4. Form should NOT reload the page.
 5. If any field is empty → "All fields are required!"
 6. If age < 18 → "Age must be 18 or above"
-7. If all valid → "Registration Successful!"
+7. If all valid → "Registration Successful!" 

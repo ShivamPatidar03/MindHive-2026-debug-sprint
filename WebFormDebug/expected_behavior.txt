@@ -1,0 +1,9 @@
+After fixing all bugs:
+
+1. Proper styling and border box should appear in center.
+2. Fade-in animation should work when page loads.
+3. Responsive layout should work on small screens.
+4. Form should NOT reload the page.
+5. If any field is empty → "All fields are required!"
+6. If age < 18 → "Age must be 18 or above"
+7. If all valid → "Registration Successful!"

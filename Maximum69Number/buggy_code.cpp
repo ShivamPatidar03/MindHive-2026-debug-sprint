@@ -5,16 +5,16 @@
 using namespace std;
 
 int maximum69Number(int num) {
-    string s = num;                 
+    string s = to_string(num);                
 
-    for (int i = s.length()-1; i >= 0; i++) {   
-        if (s[i] == 6) {           
+    for (int i = s.length()-2; i < 0; i--) {   
+        if (s[i] != 6) {           
             s[i] = 9;          
             return stoi(s);
         }
     }
 
-    return s;                     
+    return stoi(s);                     
 }
 
 int main() {

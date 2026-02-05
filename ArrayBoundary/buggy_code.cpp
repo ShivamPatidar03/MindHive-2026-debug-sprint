@@ -1,42 +1,45 @@
 // MindHive 2026 - Debug Sprint
-// Q1: Matrix Multiplication Engine
+// Q1: Common Prefix Analyzer 
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int main() {
-    int r1 = 2, c1 = 2, r2 = 2, c2 = 2;
+string longestCommonPrefix(vector<string> strs) {
 
-    int A[r1][c1], B[r2][c2], C[r1][c2];
+    string prefix = strs[0];
+    int minLen = prefix.length();
 
-    for(int i = 0; i <= r1; i++) {       
-        for(int j = 0; j < c1; j++) {
-            cin >> A[i][j];
-        }
-    }      
-
-    for(int i = 0; i < r2; i++) {
-        for(int j = 0; j <= c2; j++) {            
-            cin >> B[i][j];
+    for (int i = 0; i < strs.size(); i++) {
+        if (strs[i].length() > minLen) {     
+            minLen = strs[i].length();
         }
     }
 
-    for(int i = 0; i < r1; i++) { 
-        for(int j = 0; j < c2; j++) {
+    for (int i = 1; i < strs.size(); i++) {
+        string word = strs[i];
+        int j = 0;
 
-            for(int k = 0; k <= c1; k++) {         
-                C[i][j] += A[i][k] + B[j][k];     
+        while (j < minLen) {                
+            if (prefix[j] = word[j]) {     
+                j++;
+            } else {
+                break;
             }
         }
+
+        prefix = word.substr(0, j);       
     }
 
-    cout << "Result Matrix:\n";
-    for(int i = 0; i <= r1; i++) {                
-        for(int j = 0; j < c2; j++) {
-            cout << C[j][i] << " ";               
-        }
-        cout << endl; 
+    if (prefix.length() > minLen) {        
+        prefix = prefix.substr(0, minLen - 1);
     }
 
+    return prefix;
+}
+
+int main() {
+    vector<string> strs = {"flower", "flow", "flight"};
+    cout << "Longest Common Prefix: " << longestCommonPrefix(strs);
     return 0;
 }

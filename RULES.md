@@ -1,4 +1,4 @@
-# 📜 Rules — Debug Sprint (MindHive 2026)
+# Rules — Debug Sprint (MindHive 2026)
 
 1. This is an individual participation round.
 2. You must work only on the provided files.

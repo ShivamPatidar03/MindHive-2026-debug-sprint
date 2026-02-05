@@ -1,32 +1,67 @@
-# Submission Instructions — Debug Sprint
+# MindHive 2026 — Debug Sprint Submission Guidelines
 
-After completing all debugging tasks:
+Congratulations on completing the Debug Sprint round!
 
-## Step 1
+To successfully submit your solutions, follow these instructions **very carefully**.
 
-Create a folder named:
-YourName_CollegeName
-
-## Step 2
-
-Copy all the corrected question folders (Q1 to Q6) into it.
-
-## Step 3
-
-Compress (zip) the folder.
-
-## Step 4
-
-Submit the zip file to the coordinators as instructed.
+Failure to follow the format will lead to rejection of your submission.
 
 ---
 
-## What to include
+## Questions You Have Debugged
 
-- All corrected files from Q1 to Q6
-- Do not include extra files
-- Do not change file names
+Your submission must contain solutions for these folders:
+
+- dictionary
+- Linklist
+- LongestCommonPrefix
+- Maximum69Number
+- Recursion
+- WebFormDebug
 
 ---
 
-⚠️ Submissions with missing or renamed files may not be evaluated.
+## Mandatory Rule — Comment Your Fixes
+
+Whenever you modify or fix any line of code:
+
+👉 You MUST add a comment on the **same line** explaining what you changed.
+
+
+### Example (C++)
+
+students[roll]["marks"].append(new_mark)  # Removed wrong assignment with append
+
+---
+
+### Final Folder Structure (Very Important)
+
+YourName_RollNo/
+│
+├── dictionary
+├── Linklist
+├── LongestCommonPrefix
+├── Maximum69Number
+├── Recursion
+└── WebFormDebug
+
+---
+
+###  Create ZIP File
+
+Compress the main folder into a ZIP file.
+
+ZIP File Name Format (Strict)
+YourName_RollNo.zip
+
+Example 
+ShivamPatidar_BTCD24O1062.zip
+
+### Submission Process
+
+Upload this ZIP file on the Google Form shared during the event.
+Only one submission is allowed.
+
+---
+
+All the best for MindHive 2026! 

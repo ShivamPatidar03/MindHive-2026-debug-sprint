@@ -12,7 +12,7 @@
 ---
 
 ## ⏱ Duration
-90 Minutes
+120 Minutes
 
 ---
 

@@ -15,7 +15,7 @@ The program should:
 
 ## Expected Output
 
-After adding 95 marks to Riya (roll 102),
+After adding 99 marks to Riya (roll 102),
 
 Topper: Riya
 

@@ -11,7 +11,7 @@ The program should:
 2. Calculate the average marks of each student.
 3. Print the name of the topper.
 
----
+--- 
 
 ## Expected Output
 
